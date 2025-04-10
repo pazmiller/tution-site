@@ -1,6 +1,7 @@
 // app/page.tsx
 import MagneticYoyo from "@/components/MagneticYoyo";
 import Link from 'next/link'; // Import Link for internal navigation
+import Providers from "./providers";
 
 export default function HomePage()
 {
@@ -11,7 +12,7 @@ export default function HomePage()
       {/* Hero Section - Centered Text */}
       <div className="text-center mb-16 md:mb-20">
         {/* Main Heading - Larger and bolder */}
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 dark:text-blue-400 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue dark:text-white">
           Welcome To XX Tuition Center!
         </h1>
         {/* Sub Heading (Chinese) - Slightly smaller */}
@@ -45,14 +46,6 @@ export default function HomePage()
         {/* If MagneticYoyo's SVG is NOT absolute, this centers it */}
         <MagneticYoyo />
       </div>
-      {/*
-         Option 2: Absolute positioning as background (More complex)
-         Requires the parent div (e.g., the root div) to have `position: relative;`.
-         You'd add classes like `absolute inset-0 z-0 flex justify-center items-center`
-         to a wrapper around MagneticYoyo, and ensure text content has a higher z-index (e.g., `relative z-10`).
-         This can be tricky to get right visually.
-       */}
-
 
       {/* Call to Action Buttons Section */}
       <div className="text-center mt-16"> {/* Added margin-top */}

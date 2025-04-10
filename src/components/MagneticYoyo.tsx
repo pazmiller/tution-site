@@ -179,7 +179,6 @@ const MagneticYoyo = () =>
             className="absolute w-[35rem] h-[35rem] overflow-visible"
             style={{ pointerEvents: 'none' }}
         >
-            {/* SVG元素将在useEffect中动态创建 */}
         </svg>
     );
 };
