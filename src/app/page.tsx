@@ -15,7 +15,7 @@ export default function HomePage()
           Welcome To XX Tuition Center!
         </h1>
         {/* Sub Heading (Chinese) - Slightly smaller */}
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800 dark:text-gray-800">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800 dark:text-gray-100">
           欢迎来到 XX 补习中心
         </h2>
 

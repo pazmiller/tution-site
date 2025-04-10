@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 // components/NavBar.tsx
 
 const Navbar = () =>
@@ -18,6 +19,7 @@ const Navbar = () =>
                 <Link href={"/contact"}>
                     Contact Us
                 </Link>
+                <ThemeToggle />
             </div>
         </nav>
     );
